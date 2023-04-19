@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		277B011429EFB5C700F713EE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B011329EFB5C700F713EE /* main.swift */; };
+		277B011D29F02D1000F713EE /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B011C29F02D1000F713EE /* Score.swift */; };
+		277B011F29F02D1E00F713EE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B011E29F02D1E00F713EE /* Student.swift */; };
+		277B012329F02E5000F713EE /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B012229F02E5000F713EE /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		277B011029EFB5C700F713EE /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		277B011329EFB5C700F713EE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		277B011C29F02D1000F713EE /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		277B011E29F02D1E00F713EE /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		277B012229F02E5000F713EE /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,27 @@
 			isa = PBXGroup;
 			children = (
 				277B011329EFB5C700F713EE /* main.swift */,
+				277B012129F02E2800F713EE /* Function */,
+				277B012029F02E0200F713EE /* Models */,
+				277B011C29F02D1000F713EE /* Score.swift */,
+				277B011E29F02D1E00F713EE /* Student.swift */,
 			);
 			path = MyCreditManager;
+			sourceTree = "<group>";
+		};
+		277B012029F02E0200F713EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		277B012129F02E2800F713EE /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				277B012229F02E5000F713EE /* Functions.swift */,
+			);
+			path = Function;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277B011D29F02D1000F713EE /* Score.swift in Sources */,
+				277B011F29F02D1E00F713EE /* Student.swift in Sources */,
 				277B011429EFB5C700F713EE /* main.swift in Sources */,
+				277B012329F02E5000F713EE /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
