@@ -66,8 +66,6 @@
 				277B011329EFB5C700F713EE /* main.swift */,
 				277B012129F02E2800F713EE /* Function */,
 				277B012029F02E0200F713EE /* Models */,
-				277B011C29F02D1000F713EE /* Score.swift */,
-				277B011E29F02D1E00F713EE /* Student.swift */,
 			);
 			path = MyCreditManager;
 			sourceTree = "<group>";
@@ -75,6 +73,8 @@
 		277B012029F02E0200F713EE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				277B011C29F02D1000F713EE /* Score.swift */,
+				277B011E29F02D1E00F713EE /* Student.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
