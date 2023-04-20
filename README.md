@@ -104,10 +104,10 @@
 
 ## **🚀 트러블 슈팅**
 사전과제 안내문에서 제시된 예외사항은 아니였으나, 발생할 수 있는 에러에 대한 예외처리 구현
-1. 성적 삭제 시 이름은 정확히 입력하였으나 과목명이 잘못 입력되었을 때
-- students[index].grade.contains(where: { $0.key == scores[1] }) 조건을 통해 입력 값의 과목명과 실제 저장된 과목명을 비교 후 분기처리
+1. **성적 삭제 시 이름은 정확히 입력하였으나 과목명이 잘못 입력되었을 때**
+- **`students[index].grade.contains(where: { $0.key == scores[1] })`** 조건을 통해 입력 값의 과목명과 실제 저장된 과목명을 비교 후 분기처리
 <img width="1032" alt="image" src="https://user-images.githubusercontent.com/101093592/233285362-77461c05-2056-4e52-8dea-efa9b17fcd18.png">
 
-2. 성적을 삭제 후 성적을 조회했을 때 구조체 배열 안에 학생 이름만 남아있기 때문에 평점이 nan(not a number)으로 출력되는 이슈
-- students[index].grade.isEmpty 조건을 통해 grade 딕셔너리의 값의 유무를 판단 후 분기처리
+2. **성적을 삭제 후 성적을 조회했을 때 구조체 배열 안에 학생 이름만 남아있기 때문에 평점이 `nan(not a number)`으로 출력되는 이슈**
+- **`students[index].grade.isEmpty`** 조건을 통해 **`grade`** 딕셔너리의 값의 유무를 판단 후 분기처리
 <img width="1032" alt="image" src="https://user-images.githubusercontent.com/101093592/233285963-c7798053-b1c6-4431-8f1d-3b9a594b6ed9.png">
